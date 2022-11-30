@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama apprev="18116" appversion="6.1.15" id="node1">
+  <input width="2274" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelingroll="0" height="2274" levelbias="0.400" overlap="1" levelbiashidpi="1.000">
+    <level width="2274" predecode="0" preload="0" height="2274"/>
+    <level width="1137" predecode="0" preload="0" height="1137"/>
+    <level width="568" predecode="0" preload="0" height="568"/>
+    <level width="284" predecode="1" preload="1" height="284"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view pannorth="-12" fovmode="0">
+    <start pan="0" fov="70" tilt="0" projection="4"/>
+    <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+    <min pan="0" tilt="-90" fovpixel="2"/>
+    <max pan="360" fov="120" tilt="90" fovfisheye="360" fovstereographic="270" scaletofit="1"/>
+  </view>
+  <userdata source="" latitude="40.55040002" longitude="-112.00389326" heading="-12" title="" nodeid="node1" tags="OquirrhLake" comment="" copyright="" info="" description="" customnodeid="" datetime="9/6/20 8:58 PM" author=""/>
+  <hotspots width="180" wordwrap="1" height="20">
+    <label borderradius="1" width="180" wordwrap="1" textcolor="0x000000" backgroundcolor="0xffffff" height="20" backgroundalpha="1" borderalpha="1" enabled="1" background="1" bordercolor="0x000000" textalpha="1" border="1"/>
+    <polystyle backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff"/>
+    <hotspot url="images/OquirrhLake.jpg" skinid="ht_image" pan="-359.35" title="Oquirrh Lake" target="" id="Point01" tilt="-7.67" description=""/>
+  </hotspots>
+  <media/>
+  <transition zoomout="0" softedge="0" blendtime="1" zoomspeed="2" zoomin="0" zoomafterinfov="90" blendcolor="0x000000" zoomfov="20" enabled="1" type="crossdissolve" zoomoutpause="1" zoomafteroutfov="20"/>
+  <autorotate startloaded="0" useanimation="0" speed="0.050" delay="5.00" nodefilter="" nodedelay="0.00" enabled="1" returntohorizon="0.000" noderandom="1"/>
+  <flyintransition speed="2.00" enabled="1"/>
+  <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+  <control rubberband="0" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" lockedkeyboard="0" simulatemass="1" invertwheel="0" lockedkeyboardzoom="0" contextvr="1" lockedmouse="0" lockedwheel="0" speedwheel="1" invertcontrol="1" contextprojections="0"/>
+</panorama>

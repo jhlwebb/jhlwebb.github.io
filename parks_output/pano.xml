@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama apprev="18116" id="node1" appversion="6.1.15">
+  <input leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="2276" levelingroll="0" levelingpitch="0" levelbias="0.400" overlap="1" height="2276">
+    <level preload="0" predecode="0" width="2276" height="2276"/>
+    <level preload="0" predecode="0" width="1138" height="1138"/>
+    <level preload="0" predecode="0" width="569" height="569"/>
+    <level preload="1" predecode="1" width="284" height="284"/>
+    <preview strip="1" color="0x808080"/>
+  </input>
+  <view pannorth="-48" fovmode="0">
+    <start fov="70" tilt="0" pan="0" projection="4"/>
+    <flyin fov="170" tilt="-90" pan="0" projection="9"/>
+    <min fovpixel="2" tilt="-90" pan="0"/>
+    <max fov="120" tilt="90" fovfisheye="360" scaletofit="1" pan="360" fovstereographic="270"/>
+  </view>
+  <userdata title="" tags="Park" longitude="-112.03573644" comment="" source="" latitude="40.54560844" customnodeid="" author="" heading="-48" copyright="" datetime="9/1/20 10:35 PM" info="" nodeid="node1" description=""/>
+  <hotspots width="180" wordwrap="1" height="20">
+    <label background="1" borderalpha="1" border="1" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderradius="1" backgroundalpha="1" width="180" textcolor="0x000000" textalpha="1" wordwrap="1" height="20"/>
+    <polystyle borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0"/>
+    <hotspot title="Daybreak Parks" id="Point01" target="" tilt="0.37" pan="-351.64" skinid="ht_image" url="images/Parks.jpg" description=""/>
+  </hotspots>
+  <media>
+    <sound id="Element01" ambientlevel="0.000" pansize="10.000" field="90.000" tiltsize="10.000" tilt="1.670" pan="-349.850" level="1.000" nodechangekeep="0" loop="1" mode="5" startmutedmobile="0">
+      <source url="media/ambience_public_place_outsdide_school_playground_children_play_car_short.mp3"/>
+    </sound>
+  </media>
+  <transition zoomfov="20" zoomafterinfov="90" enabled="1" zoomin="0" zoomafteroutfov="20" type="crossdissolve" softedge="0" zoomspeed="2" blendtime="1" blendcolor="0x000000" zoomoutpause="1" zoomout="0"/>
+  <autorotate nodefilter="" enabled="1" speed="0.050" startloaded="0" useanimation="0" delay="5.00" nodedelay="0.00" returntohorizon="0.000" noderandom="1"/>
+  <flyintransition enabled="1" speed="2.00"/>
+  <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+  <control lockedkeyboard="0" lockedmouse="0" invertwheel="0" contextprojections="0" lockedwheel="0" simulatemass="1" contextvr="1" rubberband="0" contextfullscreen="1" dblclickfullscreen="0" sensitivity="8" lockedkeyboardzoom="0" invertcontrol="1" speedwheel="1"/>
+</panorama>
